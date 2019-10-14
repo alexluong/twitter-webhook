@@ -1,0 +1,20 @@
+{
+  "name": "twitter-webhook-cli",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "umd:main": "dist/twitter-webhook-cli.umd.production.js",
+  "module": "dist/twitter-webhook-cli.es.production.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test"
+  },
+  "dependencies": {
+    "twitter-webhook": "^0.1.0"
+  }
+}
